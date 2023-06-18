@@ -48,3 +48,25 @@ body{
         .gameName:visited{
             color: red;
         }
+        @media screen and (orientation:portrait) {
+            .scores{
+                font-size: 20px;
+                top: 60px;
+                text-align: left;
+            }
+            .btnHolder{
+                position: relative;
+                top: 80px;
+                left: 3px;
+                width: 180px;
+                height: 180px;
+            }
+            #mainBtn{
+                width: 130px;
+                height: 130px;
+            }
+            .credits{
+                font-size: 9px;
+                top: 200px;
+            }
+        }
