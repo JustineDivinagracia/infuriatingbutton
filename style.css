@@ -1,0 +1,50 @@
+body{
+            background-color: darkslategray;
+            font-family: arial;
+            color: whitesmoke;
+        }
+        .scores{
+            font-weight: bold;
+            position: relative;
+            top: 110px;
+            text-align: center;
+            font-size: 40px;
+            margin: 0px;
+        }
+        .btnHolder{
+            background-color: lightslategray;
+            border-radius: 150px;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: 130px;
+            left: 550px;
+        }
+        #mainBtn{
+            background-color: red;
+            color: rgb(160, 0, 0);
+            border: none;
+            border-radius: 100px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: 25px;
+            left: 25px;
+            box-shadow: rgb(128, 8, 8) 0px 7px;
+            font-size: 60px;
+        }
+        #mainBtn:active{
+            box-shadow: none;
+        }
+        .gameName{
+            color: red;
+            text-decoration: none;
+        }
+        .credits{
+            position: relative;
+            top: 280px;
+            margin: 0px;
+        }
+        .gameName:visited{
+            color: red;
+        }
